@@ -23,6 +23,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseStaticFiles();
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/scalar/index.html");
+    return Task.CompletedTask;
+});
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

@@ -7,6 +7,8 @@ builder.CreateUmbracoBuilder()
     .AddDeliveryApi()
     .Build();
 
+builder.Services.AddControllers();
+
 WebApplication app = builder.Build();
 
 await app.BootUmbracoAsync();
@@ -24,5 +26,11 @@ app.UseUmbraco()
         u.UseBackOfficeEndpoints();
         u.UseWebsiteEndpoints();
     });
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 await app.RunAsync();
