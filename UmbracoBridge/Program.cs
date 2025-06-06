@@ -1,6 +1,9 @@
+using UmbracoBridge.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpClient<IUmbracoManagementService, UmbracoManagementService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
