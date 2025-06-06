@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoBridge", "UmbracoBri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoBridge.Tests", "UmbracoBridge.Tests\UmbracoBridge.Tests.csproj", "{C7191180-9BC5-4D07-8EA6-4182D751AE45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorganaAppHost.AppHost", "MorganaAppHost\MorganaAppHost.AppHost\MorganaAppHost.AppHost.csproj", "{4299DC14-2FB9-4B1F-94C1-C86683C62F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorganaAppHost.ServiceDefaults", "MorganaAppHost\MorganaAppHost.ServiceDefaults\MorganaAppHost.ServiceDefaults.csproj", "{F408B77F-B568-EFBF-50AA-517B026DDBCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,14 @@ Global
 		{C7191180-9BC5-4D07-8EA6-4182D751AE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7191180-9BC5-4D07-8EA6-4182D751AE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7191180-9BC5-4D07-8EA6-4182D751AE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4299DC14-2FB9-4B1F-94C1-C86683C62F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4299DC14-2FB9-4B1F-94C1-C86683C62F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4299DC14-2FB9-4B1F-94C1-C86683C62F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4299DC14-2FB9-4B1F-94C1-C86683C62F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F408B77F-B568-EFBF-50AA-517B026DDBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F408B77F-B568-EFBF-50AA-517B026DDBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F408B77F-B568-EFBF-50AA-517B026DDBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F408B77F-B568-EFBF-50AA-517B026DDBCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
