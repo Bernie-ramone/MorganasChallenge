@@ -44,7 +44,7 @@ namespace UmbracoBridge.Services
                 if (response.Headers.Location != null)
                 {
                     var location = response.Headers.Location.ToString();
-                    var id = location.Split('/').Last(); // Extrae el GUID del final
+                    var id = location.Split('/').Last();
                     return id;
                 }
                 throw new Exception("Created but Location header not found.");
